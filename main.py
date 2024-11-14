@@ -19,5 +19,5 @@ def bmi_calc():
     elif bmi>=40:
         print("Obese(class III)")
     r=round(bmi,2)
-    print(r)
+    print("Your BMI is:",r)
 bmi_calc()
